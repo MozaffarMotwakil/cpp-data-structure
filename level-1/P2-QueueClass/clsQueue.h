@@ -3,7 +3,7 @@
 #include "..\P1-LinkedListClass\clsDoublyLinkedList.h"
 
 template <class T> class clsQueue {
-private:
+protected:
 	clsDoublyLinkedList<T> _list;
 
 public:
