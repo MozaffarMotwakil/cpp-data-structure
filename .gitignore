@@ -434,4 +434,7 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
+# My files
+data-structure-level-1
+
 # End of https://www.toptal.com/developers/gitignore/api/c++,visualstudio
