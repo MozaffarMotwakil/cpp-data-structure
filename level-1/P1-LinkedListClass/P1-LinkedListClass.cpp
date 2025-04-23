@@ -7,7 +7,7 @@ int main()
 {
 	clsDoublyLinkedList<int> doublyLinkedList;
 
-	// Show clsDoublyLinkedList class in clsDblLinkedList.h file
+	// Show clsDoublyLinkedList class in clsDoublyLinkedList.h file
 
 	return 0;
 }
