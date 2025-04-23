@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{708ac1c7-5d17-40bb-a5c6-62182148203b}</ProjectGuid>
-    <RootNamespace>L1Stack</RootNamespace>
+    <ProjectGuid>{453fdc1c-c00a-42c6-b001-9cf2056a6a3a}</ProjectGuid>
+    <RootNamespace>P1LinkedListClass</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="L1-Stack.cpp" />
+    <ClCompile Include="P1-LinkedListClass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clsDoublyLinkedList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
