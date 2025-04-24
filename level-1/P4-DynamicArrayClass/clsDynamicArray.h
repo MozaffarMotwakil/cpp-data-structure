@@ -137,11 +137,11 @@ public:
 	}
 
 	bool DeleteFirstItem() {
-		return DeleteItem(0);
+		return DeleteItemAt(0);
 	}
 
 	bool DeleteLastItem() {
-		return DeleteItem(_size - 1);
+		return DeleteItemAt(_size - 1);
 	}
 
 	void Reverse() {
