@@ -2,6 +2,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 #include "clsString.h"
+#include "clsTime.h"
 #include <string>
 #include <ctime>
 #include <vector>
@@ -723,6 +724,10 @@ public:
 
 	short CountOfDaysInDate() {
 		return CountOfDaysInDate(*this);
+	}
+
+	static string LocalDateTime() {
+		return DateToString(LocalDate()) + " - " + (clsTime().TimeToString());
 	}
 
 };
